@@ -2,6 +2,7 @@
 
 This project focuses on preprocessing and cleaning life expectancy data, including various health and demographic indicators. The goal is to prepare the dataset for further analysis and machine learning applications by handling outliers, imputing missing values, and visualizing key features.
 
+
 ## Table of Contents
 
 - [Overview](#overview)
@@ -14,9 +15,11 @@ This project focuses on preprocessing and cleaning life expectancy data, includi
 - [Contributing](#contributing)
 - [License](#license)
 
+
 ## Overview
 
 The objective of this project is to preprocess a dataset related to life expectancy in different countries, accounting for features such as mortality rates, GDP, schooling, health expenditures, and other health-related factors. By cleaning and preparing the dataset, it will be suitable for further machine learning models that can predict life expectancy or explore relationships between various indicators.
+
 
 ## Description
 The dataset consists of health and demographic data with the following key features:
@@ -30,10 +33,11 @@ The dataset consists of health and demographic data with the following key featu
   - HIV/AIDS: HIV/AIDS death rate
 and other indicators such as Alcohol consumption, Hepatitis B prevalence, thinness (5-9 years), and Income composition of resources.
 
+
 ## Steps
 
 - importing modules
-- Read DataSet
+- Read Dataset
 - Sanity Check
     - Remove unnecessary columns
     - Remove duplicates
@@ -48,6 +52,7 @@ and other indicators such as Alcohol consumption, Hepatitis B prevalence, thinne
 - Handling Outliers
 - Encoding Data
     - Label encoding
+
 
 ## Installation
 
@@ -76,6 +81,7 @@ and other indicators such as Alcohol consumption, Hepatitis B prevalence, thinne
     cd Life-Exepectancy-Data-Preprocessing
     ```
 
+
 ## Dependencies
 
 The project uses the following Python libraries:
@@ -90,6 +96,7 @@ The project uses the following Python libraries:
     pip install pandas numpy scikit-learn seaborn matplotlib pathlib
     ```
 
+
 ## Usage
 To run the preprocessing steps, open the provided Jupyter Notebook or execute the code in Python. The key sections in the notebook include:
 
@@ -97,7 +104,8 @@ To run the preprocessing steps, open the provided Jupyter Notebook or execute th
   - Visualizing outliers through box plots
   - Imputing missing values using KNN
   - Detecting and addressing outliers
-  - Encode The dataset with label encoding
+  - Encode the dataset with label encoding
+
 
 ## Next Step
 After preprocessing, the dataset will be ready for further analysis, including:
@@ -106,9 +114,11 @@ After preprocessing, the dataset will be ready for further analysis, including:
   - ***Modeling:*** Applying machine learning models (e.g., regression, decision trees) to predict life expectancy.
   - ***Statistical analysis:*** Understanding the correlation between various indicators and life expectancy.
 
+
 ## Contributing
 
 Contributions are welcome! Please feel free to submit a pull request.
+
 
 ## License
 
